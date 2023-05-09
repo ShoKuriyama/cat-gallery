@@ -1,0 +1,27 @@
+.h1 {
+  font-size: 2em;
+  font-family: serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.button {
+  color: rgb(35, 214, 214);
+  font-size: 1em;
+  padding: 20px;
+  margin: 18px auto 0;
+  border-radius: 10px;
+  border: solid 1px rgb(35, 214, 214);
+  background-color: rgb(73, 73, 73);
+  cursor: pointer;
+  &:hover {
+    opacity: 0.9;
+  }
+  &:active {
+    transform: translateY(3px);
+  }
+}
